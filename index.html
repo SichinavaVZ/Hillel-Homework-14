@@ -16,16 +16,18 @@
 	<header class="header-wrapper">
 		<div class="container">
 			<div class="row">
-				<nav class="navbar navbar-expand-lg navbar-light main-nav">
-					<a class="navbar-brand logo" href="#">Brandi</a>
-					<span class="logo-subtext">I’am your tag line</span>
+				<nav class="navbar navbar-expand-lg navbar-light main-nav w-100">
+					<div>
+						<a class="navbar-brand logo" href="#">Brandi</a>
+						<span class="logo-subtext">I’am your tag line</span>
+					</div>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ml-auto text-center">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Features</a>
@@ -41,6 +43,28 @@
 							</li>
 						</ul>
 					</div>
+		<!--			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Features</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Works</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Team</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+							</li>
+						</ul>
+					</div>-->	
 				</nav>
 			</div>
 		</div>
@@ -52,7 +76,7 @@
 
 	<div class="gallery-wrapper">
 		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators flex-column header">
+			<ol class="carousel-indicators flex-column header d-xl-block d-lg-block d-none">
 				<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
 				<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
 				<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
@@ -60,7 +84,7 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img src="images/intro-gallery3.jpg" class="d-block w-100" alt="intro-gallery">
-		      <div class="carousel-caption d-none d-md-block carrousel-desription">
+		      <div class="carousel-caption carrousel-desription">
 		        <h1>Meet <strong>Brandi</strong>!</h1>
 		        <p><em>/creative</em> one page template.</p>
 		        <span>We are a team of professionals</span>
@@ -347,7 +371,7 @@
 							<p class="col-xl-10">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
 						</div>
 						<div class="carousel-item active photo-gal">
-							<div class="col-lg-3 float-left photo">
+							<div class="col-lg-3 col-md-6 col-sm-6 float-left photo">
 								<div>
 									<div class="card">
 										<img src="images/john.jpg" alt="John">
@@ -369,7 +393,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 float-left photo">
+							<div class="col-lg-3 col-md-6 col-sm-6 float-left photo">
 								<div>
 									<div class="card">
 										<img src="images/christine.jpg" alt="Christine">
@@ -391,7 +415,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 float-left photo">
+							<div class="col-lg-3 col-md-6 col-sm-6 float-left photo">
 								<div>
 									<div class="card">
 										<img src="images/martin.jpg" alt="Martin">
@@ -413,7 +437,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 float-left photo">
+							<div class="col-lg-3 col-md-6 col-sm-6 float-left photo">
 								<div>
 									<div class="card">
 										<img src="images/steve.jpg" alt="Steve">
@@ -437,7 +461,7 @@
 							</div>
 						</div>
 						<div class="carousel-item photo-gal">
-							<div class="col-lg-3 float-left photo">
+							<div class="col-lg-3 col-md-6 col-sm-6 float-left photo">
 								<div>
 									<div class="card">
 										<img src="images/john.jpg" alt="John">
@@ -459,7 +483,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 float-left photo">
+							<div class="col-lg-3 col-md-6 col-sm-6 float-left photo">
 								<div>
 									<div class="card">
 										<img src="images/christine.jpg" alt="Christine">
@@ -481,7 +505,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 float-left photo">
+							<div class="col-lg-3 col-md-6 col-sm-6 float-left photo">
 								<div>
 									<div class="card">
 										<img src="images/martin.jpg" alt="Martin">
@@ -503,7 +527,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 float-left photo">
+							<div class="col-lg-3 col-md-6 col-sm-6 float-left photo">
 								<div>
 									<div class="card">
 										<img src="images/steve.jpg" alt="Steve">
@@ -527,7 +551,7 @@
 							</div>
 						</div>
 						<div class="carousel-item photo-gal">
-							<div class="col-lg-3 float-left photo">
+							<div class="col-lg-3 col-md-6 col-sm-6 float-left photo">
 								<div>
 									<div class="card">
 										<img src="images/john.jpg" alt="John">
@@ -549,7 +573,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 float-left photo">
+							<div class="col-lg-3 col-md-6 col-sm-6 float-left photo">
 								<div>
 									<div class="card">
 										<img src="images/christine.jpg" alt="Christine">
@@ -571,7 +595,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 float-left photo">
+							<div class="col-lg-3 col-md-6 col-sm-6 float-left photo">
 								<div>
 									<div class="card">
 										<img src="images/martin.jpg" alt="Martin">
@@ -593,7 +617,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 float-left photo">
+							<div class="col-lg-3 col-md-6 col-sm-6 float-left photo">
 								<div>
 									<div class="card">
 										<img src="images/steve.jpg" alt="Steve">
@@ -632,28 +656,28 @@
 				<div class="facts-title align-items-center d-flex flex-column">
 					<h2>Some Fun Facts<span class="white-gray"></span></h2>
 				</div>
-				<ul class="col-lg-12 facts d-flex flex-row justify-content-between">
-					<li class="col-lg-3 d-flex flex-column justify-content-center text-center align-items-center">
+				<div class="col-lg-12 facts d-flex flex-wrap justify-content-between">
+					<div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center text-center align-items-center">
 						<div class="number-icon-hours"></div>
 						<p class="number">3200</p>
 						<p class="number-text">Hours of Work</p>
-					</li>
-					<li class="col-lg-3 d-flex flex-column justify-content-center text-center align-items-center">
+					</div>
+					<div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center text-center align-items-center">
 						<div class="number-icon-clients"></div>
 						<p class="number">120</p>
 						<p class="number-text">Satisfied Clinets</p>
-					</li>
-					<li class="col-lg-3 d-flex flex-column justify-content-center text-center align-items-center">
+					</div>
+					<div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center text-center align-items-center">
 						<div class="number-icon-proj"></div>
 						<p class="number">360</p>
 						<p class="number-text">Projects delivered</p>
-					</li>
-					<li class="col-lg-3 d-flex flex-column justify-content-center text-center align-items-center">
+					</div>
+					<div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center text-center align-items-center">
 						<div class="number-icon-won"></div>
 						<p class="number">42</p>
 						<p class="number-text">Awards Won</p>
-					</li>
-				</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -670,8 +694,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-12 discuss-content flex-row d-flex">
-				<div class="col-lg-3 discuss-info flex-column d-flex">
+			<div class="col-lg-12 discuss-content flex-wrap flex-row d-flex">
+				<div class="col-lg-3 col-md-3 col-sm-12 discuss-info flex-column d-flex align-items-md-center text-md-left text-center">
 					<ul>
 						<li><h5>Cras at ultrices erat, sed vulputate!</h5></li>
 						<li><span class="adress-text">2345 Setwant natrer, 1234,</span></li>
@@ -681,8 +705,8 @@
 						<li><a href="#" class="link">www.brandi.com</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 form-wrapper">
-					<div class="discuss-form">
+				<div class="col-lg-8 col-md-9 col-sm-12 form-wrapper">
+					<div class="discuss-form text-md-left text-center">
 						<h6>Say hello!</h6>
 						<form>
 							<div class="form-row">
@@ -699,7 +723,7 @@
 						</form>
 					</div>
 				</div>
-				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 flex-column d-flex discuss-social">
+				<div class="col-lg-1 col-md-12 col-sm-12 flex-lg-column d-flex justify-content-center discuss-social align-items-center">
 					<a href="https://www.behance.net" class="behance-d"></a>
 					<a href="https://www.twitter.com" class="twitter-d"></a>
 					<a href="https://dribbble.com" class="dribbble-d"></a>
@@ -725,13 +749,40 @@
 	<div class="container-fluid footer-wrapper">
 		<div class="container footer">
 			<div class="row footer-content">
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-md-6 brand text-md-left text-center">
 					<a class="navbar-brand logo-footer" href="#">Brandi</a>
-					<p>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p class="footer-subtitle">eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
-				<div class="col-lg-3">sdfsd</div>
-				<div class="col-lg-3">sdfsd</div>
-				<div class="col-lg-3">sdf</div>
+				<div class="col-lg-3 col-md-6 subs text-md-left text-center">
+					<p class="footer-title">Subscribe</p>
+					<form action="#" class="subscribe">
+						<input type="text" name="subscribe" id="subscribe">
+						<input type="submit" value="&#8594;" id="subs">
+					</form>
+					<p class="footer-subtitle">eusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+				</div>
+				<div class="col-lg-3 col-md-6 explor text-md-left text-center">
+					<p class="footer-title">Explore</p>
+					<div class="explore-text">
+						<ul>
+							<li><a href="#">Envato</a></li>
+							<li><a href="#">Themecurve</a></li>
+							<li><a href="#">Kreativeshowcase</a></li>
+							<li><a href="#">Freebiescurve</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">Themeforest</a></li>
+							<li><a href="#">Microsoft</a></li>
+							<li><a href="#">Google</a></li>
+							<li><a href="#">Yahoo</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 cop text-md-left text-center">
+					<p class="footer-subtitle">Created with <strong>by <em>themecurve</em></strong>, exclusive for kreativeshowcase</p>
+					<p class="copy">&copy; 2014 Brandi. All Rights Reserved.</p>
+				</div>
 			</div>
 		</div>
 	</div>
